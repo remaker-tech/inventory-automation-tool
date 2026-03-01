@@ -15,17 +15,24 @@ Bu layihə ofis daxili inventarların təhvil-təslim prosesini tam avtomatlaşd
 * `python-docx` - Word şablonlarının oxunması və dəyişdirilməsi üçün.
 * `docx2pdf` - Word fayllarının PDF formatına çevrilməsi üçün.
 
-## 📂 Necə İstifadə Etməli?
+##📂 İstifadə Qaydası
+Bu proqramdan istifadə etmək üçün aşağıdakı addımları izləyin:
 
-1. Layihəni kompüterinizə yükləyin.
-2. Lazımi kitabxanaları quraşdırın:
-   ```bash
-   pip install -r requirements.txt
+Yükləyin və ZIP-dən çıxarın: Sağ yuxarıdakı yaşıl Code düyməsindən "Download ZIP" seçərək layihəni endirin. Endirilən ZIP faylının içindəki bütün faylları yeni və boş bir qovluğa (məsələn: Tehvil_Teslim_Projesi) köçürün.
 
-3. list.xlsx faylına məlumatları daxil edin.
+Vacib: Skriptin düzgün işləməsi üçün bütün fayllar mütləq eyni qovluqda olmalıdır.
 
-4. baslat.bat faylına iki dəfə klikləyərək proqramı işə salın (və ya terminalda python tekko2.py yazın).
+Kitabxanaları quraşdırın: Terminalda (CMD) aşağıdakı əmri yazaraq lazımi kitabxanaları yükləyin (yalnız bir dəfə):
 
-5. Hazır sənədlər avtomatik yaranan output qovluğunda yerləşəcək.
+Bash
+pip install -r requirements.txt
+Məlumatları daxil edin: list.xlsx faylını açın, inventar məlumatlarını daxil edin və faylı yadda saxlayıb bağlayın.
 
-   Qeyd: docx2pdf kitabxanasının işləməsi üçün kompüterdə Microsoft Word quraşdırılmış olmalıdır.
+İşə salın: Qovluqdakı baslat.bat faylına iki dəfə klikləyin (və ya terminalda python tekko2.py yazın).
+
+✅ Proses bitdikdə, hazırlanan bütün Word və PDF sənədləri avtomatik olaraq output qovluğunda görünəcək.
+
+⚠️ Vacib Qeydlər
+Texniki Tələblər: Proqramın işləməsi üçün kompüterinizdə Python 3.x və Microsoft Word proqramlarının quraşdırılması mütləqdir.
+
+PDF Konvertasiyası: docx2pdf kitabxanası Word proqramının arxa planda açılmasını tələb edir, buna görə də konvertasiya zamanı Word proqramını tam bağlamamağınız tövsiyə olunur.

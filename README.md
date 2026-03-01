@@ -24,8 +24,8 @@ Vacib: Skriptin düzgün işləməsi üçün bütün fayllar mütləq eyni qovlu
 
 Kitabxanaları quraşdırın: Terminalda (CMD) aşağıdakı əmri yazaraq lazımi kitabxanaları yükləyin (yalnız bir dəfə):
 
-Bash
-pip install -r requirements.txt
+Bash (cmd) ----
+[pip install -r requirements.txt]
 Məlumatları daxil edin: list.xlsx faylını açın, inventar məlumatlarını daxil edin və faylı yadda saxlayıb bağlayın.
 
 İşə salın: Qovluqdakı baslat.bat faylına iki dəfə klikləyin (və ya terminalda python tekko2.py yazın).
@@ -34,5 +34,6 @@ Məlumatları daxil edin: list.xlsx faylını açın, inventar məlumatlarını 
 
 ⚠️ Vacib Qeydlər
 Texniki Tələblər: Proqramın işləməsi üçün kompüterinizdə Python 3.x və Microsoft Word proqramlarının quraşdırılması mütləqdir.
+
 
 PDF Konvertasiyası: docx2pdf kitabxanası Word proqramının arxa planda açılmasını tələb edir, buna görə də konvertasiya zamanı Word proqramını tam bağlamamağınız tövsiyə olunur.
